@@ -1,0 +1,8 @@
+version: '3'
+services:
+  portfolio:
+    image: sebademasi10/portfolio
+    ports:
+      - 8080:5000
+    restart: always
+    container_name: portfolio
